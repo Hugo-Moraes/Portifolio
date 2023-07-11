@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+	padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#body {
+    background-color: rgb(43, 42, 42);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#tudo::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background-color: yellow;
+}
+#tudo::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  background-color: yellow;
+}
+
+#tudo::before {
+  left: 0;
+}
+
+#tudo::after {
+  right: 0;
+}
+/* PRIMEIRO CABEÇALHO */
+
+/*
+#cabeça {
+    background-color: #4d4c4c;
+	padding: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 115px;
+    height: 115px;
+    margin-bottom:45px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+
+#linkedin {
+    margin-left: 650px;
+    width: 90px;
+    height: 90px;
+}
+#GitHub {
+        margin-left: 20px;
+        width: 45px;
+        height: 45px;
+    }
+#workana {
+        margin-left: 40px;
+        width: 45px;
+        height: 45px;
+}
+#instragram {
+    margin-left: 50px;
+    width: 45px;
+    height: 45px;
+}
+
+*/
+/* SEGUNDO CABEÇALHO */
+
+#cabeçalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 10px;
+    position: sticky;
+    z-index: 99999;
+    top: 0;
+}
+
+#links {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin: 35px;
+    display: inline-block;
+	margin-right: 20px;
+ 
+}
+
+
+
+
+ /* Letras brilhantes  */
+
+
+.botao:hover {
+    color: #ffd608;
+    transition: 0.2s;
+} 
+
+
+
+.botao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+	margin-right: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Fim Letras brilhantes  */
+
+
+
+
+
+
+/* FIM DO TOPO */
+
+
+/* Meio da pagina */
+  
+
+ 
+   
+  #barra-superior {
+    background-color: #ab9725;
+    margin: auto;
+    width: 1000px;
+    height: 70px;
+    margin-top: 25px;
+    padding: 0px;
+
+ 
+  }
+  .titulo{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin-right: 85px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+} 
+  .sub-titulo{
+    margin-left: 25px;
+    margin-top: -40px;
+    font-size: 22px;
+  }
+/*  Barras e Efeito animado */
+
+
+@keyframes color-change  {
+    0%  {background-color: #333333;}
+    15%  {background-color:  #615618 ;}
+    30%  {background-color:  #b99e04 ;}
+    45%  {background-color:  #333 ;}
+    60%  {background-color:  #333 ;}
+    75%  {background-color: #9c8711 ;}
+    90%  {background-color: #6e6117 ;}
+    100%  {background-color:  #333;}
+}
+#tudo::after, #tudo::before , #cabeçalho {
+  animation: color-change 10s infinite;
+}
+/*  Fim Barras e Efeito animado */
+
+.espaço-escrita {
+    top: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+/* Foto e texto foto */
+#foto {
+    border-radius: 100%;
+    width: 250px;
+    height: 275px;
+    margin-top: 25px;
+    margin-left: 160px;
+}
+
+.texto1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 160px;
+}
+/* Foto e texto foto */
+
+/* Informações superiores */
+.seção-informações{
+    margin-left: 110px;
+    margin-top: 45px;
+    text-align: left;
+   
+
+}
+
+.informações{
+    margin-right: 50px;
+    margin-top: -390px;
+    float: right;
+    display: inline-block;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+/* Fim das Informações superiores  */
+
+/* Seção objetivo*/
+
+.t-informação{
+    margin-left: 550px;
+    margin-top: -130px;
+    width: 620px;
+}
+#objetivo {
+    color: white;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top: 0px;
+    
+}
+
+#t-objetivo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Fim do seção objetivo*/
+
+/*  Seção Projetos */ 
+.seção-projetos {
+    margin: auto;
+    height: 620px;
+    max-width: 1200px;
+    color: white;
+    margin-top: 100px;
+}
+
+#pequeno-ajuste{
+    margin-top: 50px;
+}
+
+#linha-abaixo-subtitulo-desenvolvedor{
+  
+}
+
+/* tabela Estado Bahia  */
+
+
+.tabela-codigo{
+    width: 10%;
+    background-color: black;    
+    background-color: white ;    
+
+}
+.tabela-resultado {
+    width: 90%;
+}
+.caixas{
+    background-color: rgb(97, 96, 96);
+    display: flex;
+    border: 1px solid #cccc;
+    width: 1200px;
+    height: 220px;
+}
+/* Fim tabela Estado Bahia  */
+
+
+/* tabela Futebol   */
+.caixas2 {
+    width: 800px;
+    height: 800px;
+    position: relative;
+
+}
+.tabela-codigo2 {
+    width: 800px;
+    background-color: white ;    
+    color: white;
+    position: absolute;
+
+}
+
+
+.tabela-resultado2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+
+.caixas2-1 {
+    width: 50%;
+    height: 50%;
+
+}
+
+
+.caixas2-2 {
+    width: 800px;
+    height: 100%;
+    margin-top: -250px;
+}
+/* Fim da tabela Futebol   */
+
+/* Pagina Americanas  */
+
+
+.caixas3 {
+    width: 1050px;
+    height: 800px;
+    position: relative;
+    margin-top: 250px;
+}
+
+
+.caixas3-1 {
+    width: 50%;
+    height: 50%;
+
+}
+
+.caixas3-2 {
+    width: 1050px;
+    height: 100%;
+    margin-top: -250px;
+}
+ 
+.tabela-codigo3 {
+    width: 1050px;
+    position: absolute;
+    background-color: white ;    
+
+}
+
+.tabela-resultado3 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+
+/* Pagina Americanas  */
+
+
+
+
+/* Pagina Time-Criciuma  */
+
+
+.caixas4 {
+    width: 900px;
+    height: 600px;
+    position: relative;
+    margin-top: 250px;
+}
+
+
+.caixas4-1 {
+    width: 50%;
+    height: 50%;
+
+}
+
+.caixas4-2 {
+    width: 900px;
+    height: 100%;
+    margin-top: -150px;
+}
+ 
+.tabela-codigo4 {
+    width: 900px;
+    position: absolute;
+    background-color: white ;    
+
+}
+
+.tabela-resultado4 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+
+/* Pagina Americanas  */
+
+
+
+
+#pequeno-ajuste2{
+    margin-top: 200px;
+    font-size: 22px;
+}
+
+.linha-abaixo-subtitulo-desenvolvedor2 {
+    width: 1150px;
+}
+
+.imagem {
+    width: 550px;
+    height: 340px;
+}
+
+#lik-site {
+    color: rgb(235, 221, 27);
+    text-decoration: underline ;
+}
+
+/* Sessão Videos */
+
+/* Esquema das grids */
+
+
+
+
+.videos-verticais {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(310px, 1fr));
+    grid-gap: 10px;
+    grid-row-gap: 10px; /* Reduzindo o espaçamento entre as linhas */
+    margin-top: 50px;
+  }
+  
+  .video-container-youtube {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px
+  }
+  .segunda-line-vdeo {
+
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  
+  .video-container2 {
+    max-width: 310px;
+    max-height: 180px;
+    margin-top: 50px;
+  }
+  
+  .video-Vert {
+    width: 100%;
+    height: auto;
+  }
+
+  .vdo-jatinho {
+    margin-top: 400px;
+    margin-left: 70px;
+  }
+
+
+
+
+    /* Fim Esquema das grids */
+    .class-horiz {
+        margin-left: 130px;
+    
+        max-width: 896px;
+        max-height: 960px;
+    }
+
+ 
+  /* Fim da Sessão Videos */    
+
+
+
+
+  .image-container img {
+    float: left;
+  }
+  #logopdcast {
+    width: 480px;
+    height: 450px;
+  } 
+
+  .subtitulo-img {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+
+
+  .image-container2 {
+    margin-top: 450px;
+  }
+  
+
+
+
+
+  .img1 {
+    width: 650px;
+    height: 940px;
+  }
+
+  .img2 {
+    width: 950px;
+    height: 540px;
+  }
+
+/* Fim Seção Projetos */ 
+
+
+/* Como posso contribuir*/ 
+
+.cpc {
+    margin-top: 8550px ;
+    color: white;
+}
+
+.textosgerais {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.titulo-sessao {
+
+}
+
+.sobre-mim {
+    color: white;
+}
+
+
+
+/* Fim do meio da pagina */
+
+
+#logo {
+    width: 135px;
+    height: 135px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+#linkedin {
+    margin-left: 650px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+#GitHub {
+   margin-left: 20px;
+   width: 75px;
+   height: 75px;
+   margin-bottom: 45px;
+    }
+#workana {
+    margin-left: 40px;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 45px;
+
+}
+#instragram {
+    margin-left: 50px;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 45px;
+
+}
+.footer {
+    background-color: rgb(32, 32, 32); 
+    height: 150px;
+    width: 100%;
+  }
+
+
